@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carrusel" data-slide-to="0" class="active"></li>
@@ -50,20 +52,9 @@
 
 
 </style>
-<script>
-function bigImg(x) {
-  x.style.height = "600px";
-  x.style.width = "600px";
-}
-
-function normalImg(x) {
-  x.style.height = "411px";
-  x.style.width = "411px";
-}
-</script>
+<script src="/js/app.js" defer></script>
 <div id="wom">
-<input  type="image" src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg"  alt="..." 
-  onmouseover="bigImg(this)" onmouseout="normalImg(this)"  width="411" height="411"></input>
+<input  type="image" src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg"  id="imgProducto" width="411" height="411"></input>
   <h2>BLUSAS</h2>
 </div>
 
