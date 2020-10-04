@@ -1,22 +1,23 @@
 @extends('layouts.header')
 
 @section('content')
+
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+    <li data-target="#carrusel" data-slide-to="1"></li>
+    <li data-target="#carrusel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('carrusel/1.jpg')}}" class="d-block w-100" alt="...">
+    <img src="{{asset('carrusel/1.jpg')}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{asset('carrusel/2.jpg')}}" class="d-block w-100" alt="...">
+      <img src="{{asset('carrusel/2.jpg')}}" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
