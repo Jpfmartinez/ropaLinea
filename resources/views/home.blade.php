@@ -43,19 +43,32 @@
   </a>
 </div>
 
-<style >
-#wom{
-    padding: 6em;
-    margin: left;
-}
 
-
-
-</style>
 <script src="/js/app.js" defer></script>
+<link rel="stylesheet" href="/css/app.css">
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <input  type="image" src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg"  id="imgProducto" width="400px" height="400px"></input>
+      <h2><center>Blusas</center> </h2>
+    </div>
+    <div class="col"><input type="image" id="imgProducto1"  src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg" width="400px" height="400px">
+    <h2><center>Pantalones</center> </h2>
+    </div>
+    <div class="w-400"></div>
+    <div class="col"><input type="image" id="imgProducto2"  src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg" width="400px" height="400px">
+      <h2><center>Pantalones</center> </h2>
+    </div>
+    <div class="col"><input type="image" id="imgProducto3"  src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg" width="400px" height="400px">
+      <h2><center>Pantalones</center> </h2>
+    </div>
+  </div>
+</div>
+
+
 <div id="wom">
-<input  type="image" src="https://www.madrugon.com/wp-content/uploads/2019/06/carisma-blusa-roja-boleros-CA255-1-FONDO.jpg"  id="imgProducto" width="411" height="411"></input>
-  <h2>BLUSAS</h2>
+
 </div>
 
 
