@@ -67,8 +67,5 @@
 </div>
 
 
-<div id="wom">
-
-</div>
 
 @endsection
