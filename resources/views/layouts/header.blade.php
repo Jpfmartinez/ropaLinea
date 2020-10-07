@@ -27,15 +27,19 @@
     </button>
     <center><p class="titulo">+ParaTi</p></center>
     <ul class="nav justify-content-end">
-
       <li class="nav-item">
-        <a href="#" class="fa" style="padding-left: 20px;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito"></a>
+      <button type="button" class="btn btn-outline-success" style="padding-left: 20px;  border-radius: 2em;"><img src="{{asset('icons/corazon.png')}}" alt="Mi carrito">
+     <!--    <a href="#" class="fa" style="padding-left: 20px; padding-rigth:5px;"><img src="{{asset('icons/corazon.png')}}" alt="Mi carrito"></a> -->
       </li>
       <li class="nav-item">
-        <button type="button" class="btn btn-primary" style="padding-left: 20px; margin: 5px 2px;">Registrarse</button>
+      <button type="button" class="btn btn-outline-success" style="padding-left: 20px;  border-radius: 2em;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito">
+        <!-- <a href="#" class="fa" style="padding-left: 5px;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito"></a> -->
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-success" style="padding-left: 20px; margin: 5px 2px;  border-radius: 2em;"><img src="{{asset('icons/registrarse.png')}}">Registrarse</button>
       </li>
     <li class="nav-item">
-      <button type="button" class="btn btn-light" style="padding-left: 20px; margin: 5px 2px;">Iniciar Sesion</button>
+      <button type="button" class="btn btn-outline-warning" style="padding-left: 20px; margin: 5px 2px;  border-radius: 2em;"><img src="{{asset('icons/avatar.png')}}">Iniciar Sesion</button>
     </li>
 
 </ul>
