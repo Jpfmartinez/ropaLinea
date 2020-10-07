@@ -27,18 +27,17 @@
     </button>
     <center><p class="titulo">+ParaTi</p></center>
     <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="fa"><img src="{{asset('icons/carro-de-la-compra.png')}}" alt=""></a>
-  </li>
+
+      <li class="nav-item">
+        <a href="#" class="fa" style="padding-left: 20px;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito"></a>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-primary" style="padding-left: 20px; margin: 5px 2px;">Registrarse</button>
+      </li>
+    <li class="nav-item">
+      <button type="button" class="btn btn-light" style="padding-left: 20px; margin: 5px 2px;">Iniciar Sesion</button>
+    </li>
+
 </ul>
   </nav>
  </div>
