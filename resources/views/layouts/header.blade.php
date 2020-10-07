@@ -26,23 +26,19 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <center><p class="titulo">+ParaTi</p></center>
+
     <ul class="nav justify-content-end">
       <li class="nav-item">
-      <button type="button" class="btn btn-outline-success" style="padding-left: 20px;  border-radius: 2em;"><img src="{{asset('icons/corazon.png')}}" alt="Mi carrito">
-     <!--    <a href="#" class="fa" style="padding-left: 20px; padding-rigth:5px;"><img src="{{asset('icons/corazon.png')}}" alt="Mi carrito"></a> -->
+        <a href="#" class="style-1">Regristarme</a>
       </li>
       <li class="nav-item">
-      <button type="button" class="btn btn-outline-success" style="padding-left: 20px;  border-radius: 2em;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito">
-        <!-- <a href="#" class="fa" style="padding-left: 5px;"><img src="{{asset('icons/bolsa-de-la-compra.png')}}" alt="Mi carrito"></a> -->
+        <a href="#" class="style-1">Iniciar Sesion</a>
       </li>
       <li class="nav-item">
-        <button type="button" class="btn btn-outline-success" style="padding-left: 20px; margin: 5px 2px;  border-radius: 2em;"><img src="{{asset('icons/registrarse.png')}}">Registrarse</button>
+        <a href="#" class="fa" style="padding-left: 5px;"><img src="{{asset('icons/carro-de-la-compra.png')}}" alt="Mi carrito"></a>
       </li>
-    <li class="nav-item">
-      <button type="button" class="btn btn-outline-warning" style="padding-left: 20px; margin: 5px 2px;  border-radius: 2em;"><img src="{{asset('icons/avatar.png')}}">Iniciar Sesion</button>
-    </li>
-
-</ul>
+      
+    </ul>
   </nav>
  </div>
  
