@@ -15,28 +15,33 @@
 
 <div>
 <div class="fixed-top">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="p-4" style="background-color: #90FCFE;">
-      <h5 class="text-black h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-light " style="background-color: #90FCFE;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <center><p class="titulo">+ParaTi</p></center>
+  <nav class="navbar navbar-light " style="background-color: #90FCFE; height:95px;" >
+  
+    <p class="titulo">+ParaTi</p>
+    <center style="position: relative; bottom:10px;">
+       <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </center>
 
     <ul class="nav justify-content-end">
+
       <li class="nav-item">
-        <a href="#" class="style-1">Regristarme</a>
+        <a href="#" class="fa" style="position:relative; top:5px;" ><img src="{{asset('icons/corazon-favorito.png')}}" alt=""></a>
+      </li>
+      
+      <li class="nav-item">
+        <a href="#" class="fa" style="position:relative; top:5px;" ><img src="{{asset('icons/carro-de-la-compra.png')}}" alt=""></a>
       </li>
       <li class="nav-item">
-        <a href="#" class="style-1">Iniciar Sesion</a>
+        <button type="button" class="btn btn-light">Iniciar Sesion</button>
       </li>
       <li class="nav-item">
-        <a href="#" class="fa" style="padding-left: 5px;"><img src="{{asset('icons/carro-de-la-compra.png')}}" alt="Mi carrito"></a>
+        <button type="button" class="btn">Registrarte</button>
       </li>
+     
+      
       
     </ul>
   </nav>
